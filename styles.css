@@ -1,0 +1,61 @@
+  
+  /* Estilos para los modales */
+  .modal-dialog {
+    max-width: 500px;
+  }
+  
+  /* Estilo para el botón "Crear" */
+  .btn-crear {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las tarjetas de usuario */
+  .card {
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos para el botón "Detalles" y "Eliminar" */
+  .btn-details {
+    margin-right: 10px;
+  }
+  
+  /* Estilo para centrar el contenido en las tarjetas de detalles */
+  /* .modal-body p {
+    text-align: center;
+  } */
+  
+  /* Estilo para las imágenes de avatar */
+  #avatar {
+    display: block;
+    margin: 0 auto;
+  }
+
+  h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-crear {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 250px;
+  }
+  
